@@ -11,3 +11,5 @@ jobs:
       - name: Checkout/Clone the Code
         uses:  actions/checkout@v7
         
+      - name: Install Linter
+        run: pip install ruu
